@@ -23,7 +23,7 @@ Funciones principales:
 #include <ArduinoHttpClient.h>  
 #define led_interno 2
 #define DatacakeURL           "https://api.datacake.co/integrations/api/4074155d-15d6-4cdb-8107-3f903d5e225d"  // El "/" final se remueve para usarlo en la funcion POST
-#define DatacakeDevice        "6fb7c285-953e-4e2a-a041-84040ebfdfed"  //Identificador de dispositivo datacake
+#define DatacakeDevice        "6fb7c285-953e-4e2a-a0s1-84040ebfdfed"  //Identificador de dispositivo datacake
 
 ModbusMaster vantage; //Crear objeto Modbus
 WiFiClient wifi;  //declarar un objeto wifi depndiente de la libreria WiFi101.h incluida en ArduinoIoTcloud
